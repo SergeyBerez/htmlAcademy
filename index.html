@@ -16,7 +16,7 @@
             height="158"
             alt="логотип барбешопа"
         /></a>
-        <ul class="set-navigatin">
+        <ul class="site-navigatin">
           <li><a href="info.html">Информация</a></li>
           <li><a href="news.html">Новости</a></li>
           <li><a href="priсe.html">Прайс-лист</a></li>
@@ -97,15 +97,33 @@
           пн-пт: с 10-22 <br />
           сб-вс:10-19
         </p>
-        <a href="map.html" class="button">Как проехать</a>
-        <a href="contacts.html" class="button">Обратная связь</a>
+        <a href="map.html" class="button contacts-button">Как проехать</a>
+        <a href="contacts.html" class="button contacts-button"
+          >Обратная связь</a
+        >
       </secton>
       <section class="appointment">
         <h2>Записаться</h2>
         <p class="appointment-info">
           Укажить желаемую дату и время ,мы в ближайшее время свяжемся с вами
         </p>
-        <!-- Здесь будет форма -->
+        <form action="#" class="appointment-form" method="post">
+          <p class="appointment-item">
+            дата
+            <input type="text" name="date" placeholder="08.10.2017" value="" />
+          </p>
+          <p class="appointment-item">
+            время <input type="text" name="time" placeholder="10:00" value="" />
+          </p>
+          <p class="appointment-item">
+            имя
+            <input type="text" name="name" placeholder="Борода" value="" />
+          </p>
+          <p class="appointment-item">
+            телефон <input type="tel" name="phone" placeholder="+38255 555" />
+          </p>
+          <button class="button" type="submit">отправить</button>
+        </form>
       </section>
     </main>
     <footer class="main-footer">
@@ -117,17 +135,45 @@
       </p>
       <div class="footer-social">
         <b>Давайте дружить</b>
-        <a href="#" class="social-button">Вконтакте</a>
-        <a href="#" class="social-button">Фейсбук</a>
-        <a href="#" class="social-button">Инстаграмм</a>
+        <ul>
+          <li><a href="#" class="social-button">Вконтакте</a></li>
+          <li><a href="#" class="social-button">Фейсбук</a></li>
+          <li><a href="#" class="social-button">Инстаграмм</a></li>
+        </ul>
       </div>
       <b>Разработано:</b>
       <a class="button" href="#">HTMLACADEMY</a>
     </footer>
+
     <section class="modal modal-login">
       <h2>Личный кабинет</h2>
       <p>Введите свой логин пароль</p>
-      <!-- Здесь будет форма -->
+      <form action="" class="login-form" method="POST">
+        <p>
+          <input
+            class="login-icon-user"
+            type="text"
+            name="login"
+            placeholder="логин"
+          />
+        </p>
+        <p>
+          <input
+            class="login-icon-password"
+            type="password"
+            name="password"
+            placeholder="пароль"
+          />
+        </p>
+        <p class="login-password-info">
+          <input
+            type="checkbox"
+            name="remember"
+            class="visualy-hidden"
+          />запомните меня <a href="#" class="restore">я забыл пароль</a>
+        </p>
+        <button class="button" type="submit">войти</button>
+      </form>
       <span class="modal-close">x</span>
     </section>
     <section class="modal modal-map">
