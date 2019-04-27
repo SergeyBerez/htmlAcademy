@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="/css/index.css" />
     <title>Document</title>
   </head>
@@ -59,93 +60,99 @@
           </li>
         </ul>
       </section>
-      <section class="new">
-        <h2>Новости</h2>
-        <ul class="new-list">
-          <li class="new-item">
-            <p>
-              Нам наконец завезли Ягермастер!Теперь вы можете пропустить стакан
-              во время стрижки
-            </p>
-            <time datetime="2016-01-11">11 января</time>
-          </li>
-          <li class="new-item">
-            <p>
-              В нашей команде пополнение Бори бритва богунец выйграл все награды
-            </p>
-            <time datetime="2016-01-18">18 января</time>
-          </li>
-        </ul>
-        <a href="news.html" class="buton">Все новости</a>
-      </section>
-      <section class="galery">
-        <h2>Фотогалерея</h2>
-        <figure class="galery-content">
-          <a href="#"><img src="img/studio.png" alt="интерьер"/></a>
-        </figure>
-        <button class="button galery-button galery-button-back">Назад</button>
-        <button class="button galery-button galery-button-next">
-          Вперед
-        </button>
-      </section>
-      <secton class="contacts">
-        <h2>
-          Контактная информация
-        </h2>
-        <p>
-          Барбешоп "Бородинский" <br />
-          Адресс:г.Санкт-Петербург.б Конюшиная 19/ 8 <br />
-          телефон 3345454-343434343
-        </p>
-        <p>
-          Время работы: <br />
-          пн-пт: с 10-22 <br />
-          сб-вс:10-19
-        </p>
-        <a href="map.html" class="button contacts-button">Как проехать</a>
-        <a href="contacts.html" class="button contacts-button"
-          >Обратная связь</a
-        >
-      </secton>
-      <section class="appointment">
-        <h2>Записаться</h2>
-        <p class="appointment-info">
-          Укажить желаемую дату и время ,мы в ближайшее время свяжемся с вами
-        </p>
-        <form action="#" class="appointment-form" method="post">
-          <p class="appointment-item">
-            <label for="appointment-item">дата</label>
-            <input
-              id="appointment-item"
-              type="text"
-              name="date"
-              placeholder="08.10.2017"
-              value=""
-            />
+      <div class="index-colums">
+        <section class="new">
+          <h2>Новости</h2>
+          <ul class="new-list">
+            <li class="new-item">
+              <p>
+                Нам наконец завезли Ягермастер!Теперь вы можете пропустить
+                стакан во время стрижки
+              </p>
+              <time datetime="2016-01-11">11 января</time>
+            </li>
+            <li class="new-item">
+              <p>
+                В нашей команде пополнение Бори бритва богунец выйграл все
+                награды
+              </p>
+              <time datetime="2016-01-18">18 января</time>
+            </li>
+          </ul>
+          <a href="news.html" class="buton">Все новости</a>
+        </section>
+
+        <section class="galery">
+          <h2>Фотогалерея</h2>
+          <figure class="galery-content">
+            <a href="#"><img src="img/studio.png" alt="интерьер"/></a>
+          </figure>
+          <button class="button galery-button galery-button-back">Назад</button>
+          <button class="button galery-button galery-button-next">
+            Вперед
+          </button>
+        </section>
+      </div>
+      <div class="index-colums">
+        <secton class="contacts">
+          <h2>
+            Контактная информация
+          </h2>
+          <p>
+            Барбешоп "Бородинский" <br />
+            Адресс:г.Санкт-Петербург.б Конюшиная 19/ 8 <br />
+            телефон 3345454-343434343
           </p>
-          <p class="appointment-item">
-            <label
-              >время<input
+          <p>
+            Время работы: <br />
+            пн-пт: с 10-22 <br />
+            сб-вс:10-19
+          </p>
+          <a href="map.html" class="button contacts-button">Как проехать</a>
+          <a href="contacts.html" class="button contacts-button"
+            >Обратная связь</a
+          >
+        </secton>
+        <section class="appointment">
+          <h2>Записаться</h2>
+          <p class="appointment-info">
+            Укажить желаемую дату и время ,мы в ближайшее время свяжемся с вами
+          </p>
+          <form action="#" class="appointment-form" method="post">
+            <p class="appointment-item">
+              <label for="appointment-item">дата</label>
+              <input
+                id="appointment-item"
                 type="text"
-                name="time"
-                placeholder="10:00"
+                name="date"
+                placeholder="08.10.2017"
                 value=""
               />
-            </label>
-          </p>
-          <p class="appointment-item">
-            <label>
-              имя <input type="text" name="name" placeholder="Борода" value=""
-            /></label>
-          </p>
-          <p class="appointment-item">
-            <label
-              >телефон <input type="tel" name="phone" placeholder="+38255 555"
-            /></label>
-          </p>
-          <button class="button" type="submit">отправить</button>
-        </form>
-      </section>
+            </p>
+            <p class="appointment-item">
+              <label
+                >время<input
+                  type="text"
+                  name="time"
+                  placeholder="10:00"
+                  value=""
+                />
+              </label>
+            </p>
+            <p class="appointment-item">
+              <label>
+                имя <input type="text" name="name" placeholder="Борода" value=""
+              /></label>
+            </p>
+            <p class="appointment-item">
+              <label
+                >телефон <input type="tel" name="phone" placeholder="+38255 555"
+              /></label>
+            </p>
+            <button class="button" type="submit">отправить</button>
+          </form>
+        </section>
+      </div>
     </main>
     <footer class="main-footer">
       <p class="footer-contacts">
