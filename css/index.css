@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=cyrillic');
+@import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=cyrillic");
 
 body,
 ul,
@@ -9,14 +9,14 @@ li {
 
 body {
   background-color: #fff;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
   background-color: #000000;
-  background-image: url(/img/bac-img.jpg);
+  background-image: url(/loft/img/bac-img.jpg);
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -24,7 +24,20 @@ body {
 a {
   text-decoration: none;
 }
-
+.button {
+  font: inherit;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  vertical-align: center;
+  background-color: #000000;
+  border: none;
+}
+.button:hover,
+.button:active,
+.button:focus {
+  background: #663d15;
+}
 nav.main-navigaition {
   font-size: 16px;
   line-height: 20px;
@@ -36,10 +49,10 @@ ul.site-navigatin,
 ul.user-navigation {
   list-style-type: none;
 }
-ul.site-navigatin li,
+/* ul.site-navigatin li,
 ul.user-navigation li {
   display: inline-block;
-}
+} */
 .site-navigatin a,
 .user-navigation a {
   color: #ffffff;
@@ -62,13 +75,13 @@ ul.user-navigation li {
   line-height: 42px;
 }
 .index-colums {
-  width: 940px;
-  /* height: 435px; */
+  /* width: 940px; */
+
   color: #000000;
   background-color: #f8f5f2;
   background-image: url(/img/layer1.jpg);
-  /* background-position: 0 0;
-  background-repeat: no-repeat; */
+  background-position: 0 0;
+  background-repeat: repeat;
 }
 .index-colums h2 {
   font-size: 30px;
@@ -82,6 +95,7 @@ ul.user-navigation li {
   text-transform: none;
 }
 .galery-content {
+  height: 165px;
   background-color: #cccccc;
   border: 7px solid #ffffff;
 }
