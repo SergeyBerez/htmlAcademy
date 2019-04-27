@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="/css/index.css" />
     <title>Document</title>
   </head>
   <body>
@@ -12,7 +12,7 @@
       <nav class="main-navigaition">
         <a class="main-header-logo">
           <img
-            src="img/index-logo.svg"
+            src="img/Logo.svg"
             width="368"
             height="158"
             alt="логотип барбешопа"
@@ -80,13 +80,13 @@
       </section>
       <section class="galery">
         <h2>Фотогалерея</h2>
-        <div class="galery-content">
-          <a href="#"><img src="img/studi.png" alt="интерьер"/></a>
-          <button class="button galery-button galery-button-back">Назад</button>
-          <button class="button galery-button galery-button-next">
-            Вперед
-          </button>
-        </div>
+        <figure class="galery-content">
+          <a href="#"><img src="img/studio.png" alt="интерьер"/></a>
+        </figure>
+        <button class="button galery-button galery-button-back">Назад</button>
+        <button class="button galery-button galery-button-next">
+          Вперед
+        </button>
       </section>
       <secton class="contacts">
         <h2>
@@ -170,7 +170,9 @@
       <p>Введите свой логин пароль</p>
       <form action="" class="login-form" method="POST">
         <p>
+          <label for="user-login" class="visualy-hidden">логин</label>
           <input
+            id="user-login"
             class="login-icon-user"
             type="text"
             name="login"
@@ -178,7 +180,9 @@
           />
         </p>
         <p>
+          <label for="user-password" class="visualy-hidden">пароль</label>
           <input
+            id="user-password"
             class="login-icon-password"
             type="password"
             name="password"
@@ -197,8 +201,13 @@
     </section>
     <section class="modal modal-map">
       <h2 class="visual-hidden">Как до нас добраться</h2>
-      <!-- Здесь будет форма -->
-      <button class="modal-close">xзакрыть</button>
+      <img
+        src="img/map.jpg"
+        alt="адресс Санкт-Петербург ул"
+        width="780"
+        height="560"
+      />
+      <button class="modal-close">x закрыть</button>
     </section>
   </body>
 </html>
