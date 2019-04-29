@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=cyrillic");
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=cyrillic');
 
 body,
 ul,
@@ -9,14 +9,14 @@ li {
 
 body {
   background-color: #fff;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
   background-color: #000000;
-  background-image: url(/loft/img/bac-img.jpg);
+  background-image: url(/img/bac-img.jpg);
   background-position: top center;
   background-repeat: no-repeat;
 }
