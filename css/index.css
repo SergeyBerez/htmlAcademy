@@ -45,8 +45,8 @@ nav.main-navigaition {
   background-color: #000000;
 }
 
-ul.site-navigatin,
-ul.user-navigation {
+.site-navigatin,
+.user-navigation {
   list-style-type: none;
 }
 /* ul.site-navigatin li,
@@ -99,3 +99,67 @@ ul.user-navigation li {
   background-color: #cccccc;
   border: 7px solid #ffffff;
 }
+.appointment-item input {
+  font: inherit;
+  background-color: transparent;
+  border: 2px solid #000000;
+}
+.appointment-item input:focus {
+  border-color: #663d15;
+  outline: none;
+}
+.main-footer {
+  color: #ffffff;
+  background-color: #212121;
+}
+.footer-contacts a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:active {
+  text-decoration: none;
+}
+.footer-social ul {
+  list-style: none;
+}
+.social-button {
+  color: #ffffff;
+}
+.footer-social {
+  text-align: center;
+}
+.footer-copir {
+  text-align: center;
+}
+.footer-copir .button:hover,
+.footer-copir .button:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+.modal {
+  color: #ffffff;
+  background-color: #f8f3f0;
+}
+.modal h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  font: inherit;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #f9f6f3;
+  border: 2px solid #000000;
+}
+.login-form input:focus {
+  border-color: #663d15;
+  outline: none;
+}
+.login-checkbox:hover,
+.login-checkbox:active {
+  color: #663d15;
+}
+.restore
