@@ -139,15 +139,15 @@ ul.user-navigation li {
   background-color: #ffffff;
 }
 .modal {
-  color: #ffffff;
+  color: #000000;
   background-color: #f8f3f0;
 }
 .modal h2 {
   font-size: 30px;
   line-height: 42px;
 }
-.login-form input[type="text"],
-.login-form input[type="password"] {
+.login-form input[type='text'],
+.login-form input[type='password'] {
   font: inherit;
   color: #000000;
   text-transform: uppercase;
@@ -162,4 +162,11 @@ ul.user-navigation li {
 .login-checkbox:active {
   color: #663d15;
 }
-.restore
+.restore {
+  color: #000000;
+  text-decoration: underline;
+}
+.restore:hover,
+.restore:focus {
+  text-decoration: none;
+}
