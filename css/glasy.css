@@ -17,17 +17,17 @@ li {
 }
 
 .main-head {
-  /* position: absolute; */
-
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  position: absolute;
+  z-index: 2;
+  /* margin-top: 20px; */
+  line-height: 80px;
 }
 .wrap {
+  position: relative;
   max-width: 1200px;
+  min-height: 2416px;
   margin: 0 auto;
+  background-color: #849d8f;
   background-image: url(/img/Фонglasy.png);
 }
 /* .claerfix:after {
@@ -37,13 +37,13 @@ li {
 } */
 .main-logo {
   margin: 9px 0px 0px 51px;
-  /* float: left; */
+  float: left;
   flex-basis: 160px;
 }
 /* главное меню  */
 ul.nav-main {
   flex-basis: 650px;
-
+  float: left;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -110,31 +110,43 @@ ul.drop li a:hover {
 /* правое меню пользователя */
 
 .nav-user {
-  margin-right: 51px;
+  margin-top: 12px;
+  margin-right: 50px;
   list-style-type: none;
+  float: right;
+  margin-left: 270px;
 }
 .nav-user li {
   display: inline-block;
 }
 .work-info {
   /* flex-basis: 300px; */
-  text-align: right;
-  margin-left: auto;
-  margin-right: 51px;
+  margin-top: -50px;
+  margin-left: 200px;
+  margin-right: 50px;
+  /* text-align: right; */
+  float: right;
   font-size: 14px;
   color: #ffffff;
+  width: 200px;
+  height: 100px;
+  display: block;
+
   /* clear: both; */
   /* margin-left: 1000px; */
 }
-.work-info span {
+span.work-info {
+  margin-top: -80px;
+  clear: both;
+  /* text-align: right; */
+  /* float: right; */
   font-size: 22px;
 }
 /* стили для слайдера  */
 /* Общий блок и блок с слайдером имеют одинаковые размеры, чтобы идеально контролировать положение слайдера на странице. Пока отсутствуют слайды */
 
 .features-slider {
-  margin-top: 200px;
-  height: 700px;
+  height: 2400px;
   width: 1200px;
 }
 
@@ -182,7 +194,7 @@ ul.drop li a:hover {
   height: 10px;
   margin: 25px 12px 0 16px;
   position: relative;
-  top: -50px;
+  top: -1890px;
   z-index: 1;
   width: 10px;
   transition: background ease-in-out 0.5s;
@@ -221,4 +233,38 @@ ul.drop li a:hover {
   z-index: 1;
 
   /* transform: scale(1); */
+}
+button {
+  width: 170px;
+  height: 45px;
+  background-color: #eb543a;
+  border-radius: 30px;
+  font-family: 'roboto';
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  text-shadow: 0 2px 5px #a0200b;
+  box-shadow: 0px 2px 2px #a0200b;
+}
+button.main {
+  width: 280px;
+  height: 60px;
+  background-color: #eb543a;
+  border-radius: 30px;
+  font-family: 'roboto';
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 32px;
+}
+.banner-foto1 {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  margin: 50px;
+  width: 560px;
+  height: 227px;
+
+  background-image: url(/img/malina.png);
 }
