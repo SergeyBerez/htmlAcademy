@@ -24,6 +24,7 @@ body {
 a {
   text-decoration: none;
 }
+
 .button {
   font: inherit;
   text-align: center;
@@ -33,26 +34,30 @@ a {
   background-color: #000000;
   border: none;
 }
+
 .button:hover,
 .button:active,
 .button:focus {
   background: #663d15;
 }
+
 nav.main-navigaition {
   font-size: 16px;
-  line-height: 20px;
+  /* line-height: 20px; */
   color: #ffffff;
-  background-color: #000000;
+  /* background-color: #000000; */
 }
 
 .site-navigatin,
 .user-navigation {
   list-style-type: none;
 }
-/* ul.site-navigatin li,
+ul.site-navigatin li,
 ul.user-navigation li {
   display: inline-block;
-} */
+  line-height: 70px;
+  margin-right: 40px;
+}
 .site-navigatin a,
 .user-navigation a {
   color: #ffffff;
@@ -64,24 +69,27 @@ ul.user-navigation li {
 .user-navigation a:focus {
   background-color: #242424;
 }
+
 .feature-list {
   list-style-type: none;
 }
+
 .feature-item {
   text-align: center;
 }
+
 .feature-item h3 {
   font-size: 30px;
   line-height: 42px;
 }
-.index-colums {
-  /* width: 940px; */
 
+.index-colums {
   color: #000000;
   background-color: #f8f5f2;
   background-image: url(/img/layer1.jpg);
+
   background-position: 0 0;
-  background-repeat: repeat;
+  /* background-repeat: repeat; */
 }
 .index-colums h2 {
   font-size: 30px;
@@ -91,27 +99,34 @@ ul.user-navigation li {
 .new-list {
   list-style-type: none;
 }
+
 .new-item time {
   text-transform: none;
 }
+
 .galery-content {
   height: 165px;
   background-color: #cccccc;
   border: 7px solid #ffffff;
 }
+
 .appointment-item input {
   font: inherit;
   background-color: transparent;
   border: 2px solid #000000;
 }
+
 .appointment-item input:focus {
   border-color: #663d15;
   outline: none;
 }
+
 .main-footer {
   color: #ffffff;
   background-color: #212121;
+  background-image: url(/img/footer.png);
 }
+
 .footer-contacts a {
   color: #ffffff;
   text-decoration: underline;
@@ -121,31 +136,39 @@ ul.user-navigation li {
 .footer-contacts a:active {
   text-decoration: none;
 }
+
 .footer-social ul {
   list-style: none;
 }
+
 .social-button {
   color: #ffffff;
 }
+
 .footer-social {
   text-align: center;
 }
+
 .footer-copir {
   text-align: center;
 }
+
 .footer-copir .button:hover,
 .footer-copir .button:focus {
   color: #000000;
   background-color: #ffffff;
 }
+
 .modal {
   color: #000000;
   background-color: #f8f3f0;
 }
+
 .modal h2 {
   font-size: 30px;
   line-height: 42px;
 }
+
 .login-form input[type='text'],
 .login-form input[type='password'] {
   font: inherit;
@@ -154,19 +177,112 @@ ul.user-navigation li {
   background-color: #f9f6f3;
   border: 2px solid #000000;
 }
+
 .login-form input:focus {
   border-color: #663d15;
   outline: none;
 }
+
 .login-checkbox:hover,
 .login-checkbox:active {
   color: #663d15;
 }
+
 .restore {
   color: #000000;
   text-decoration: underline;
 }
+
 .restore:hover,
 .restore:focus {
   text-decoration: none;
+}
+/*сетки*/
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.main-header {
+}
+.main-navigaition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+
+  margin-bottom: 30px;
+}
+.main-header-logo {
+  order: 1;
+}
+.main-wrap {
+  display: flex;
+  width: 100%;
+  margin-bottom: 60px;
+  background: #000000;
+}
+.site-navigatin {
+  display: inline-block;
+  /* width: 620px; */
+}
+.user-navigation {
+  margin-left: auto;
+}
+.features {
+}
+.feature-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+.feature-item {
+  box-sizing: border-box;
+  /* border: 1px solid #cccccc; */
+  width: 300px;
+  text-align: center;
+  /* padding: 10px; */
+}
+
+.index-colums {
+  /* width: 940px; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding: 20px 80px;
+  border: 1px solid #000;
+}
+.new {
+  background: #663e155d;
+  width: 380px;
+}
+.galery {
+  width: 300px;
+  background: #663e155d;
+}
+.contacts {
+  width: 380px;
+}
+.appointment {
+  width: 300px;
+}
+.main-footer .container {
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0px 40px 0px;
+}
+.footer-contacts {
+  width: 320px;
+}
+.footer-social {
+  width: 180px;
+}
+.footer-copir {
+  width: 160px;
 }
