@@ -200,7 +200,7 @@ ul.user-navigation li {
 /*сетки*/
 
 .container {
-  width: 940px;
+  max-width: 940px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -274,6 +274,7 @@ ul.user-navigation li {
 .main-footer .container {
   margin-top: 65px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 60px 0px 40px 0px;
 }
