@@ -46,9 +46,12 @@ li {
 } */
 .main-logo {
     margin: 9px 0px 0px 51px;
+    flex-basis: 10%;
 }
 /* главное меню  */
 ul.nav-main {
+    min-width: 500px;
+    flex-basis: 50%;
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -115,7 +118,7 @@ ul.drop li a:hover {
 /* правое меню пользователя */
 
 .nav-user {
-    margin-left: auto;
+    margin-left: 20px;
     /* margin-top: 12px;
     margin-right: 50px; */
     list-style-type: none;
@@ -129,7 +132,7 @@ ul.drop li a:hover {
     margin-left: 400px;
     margin-right: 50px; */
     /* text-align: right; */
-
+    margin-left: auto;
     font-size: 14px;
     color: #ffffff;
     width: 200px;
