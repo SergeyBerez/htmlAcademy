@@ -1,4 +1,5 @@
-.prettierrc
+package.json
 .htmlhintrc
+.prettierrc
 .stylelintrc
-.prepros-6.config
+
