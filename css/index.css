@@ -16,7 +16,7 @@ body {
   color: #ffffff;
   text-transform: uppercase;
   background-image: url(../img/bac-img.jpg);
-  background-color: #f00a0a;
+  background-color: black;
 
   background-position: top center;
   background-repeat: no-repeat;
@@ -111,11 +111,14 @@ ul.user-navigation li {
 }
 
 .galery-content {
-  height: 165px;
+  width: 200px;
+  /* height: 165px; */
   background-color: #cccccc;
   border: 7px solid #ffffff;
 }
-
+.galery-content img {
+  width: 100%;
+}
 .appointment-item input {
   font: inherit;
   background-color: transparent;
@@ -281,6 +284,7 @@ ul.user-navigation li {
 .galery {
   width: 300px;
   background: #663e155d;
+  text-align: center;
 }
 
 .contacts {
