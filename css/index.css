@@ -16,7 +16,7 @@ body {
   color: #ffffff;
   text-transform: uppercase;
   background-color: #000000;
-  background-image: url(/img/bac-img.jpg);
+  background-image: url(img/bac-img.jpg);
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -43,8 +43,10 @@ a {
 
 nav.main-navigaition {
   font-size: 16px;
+
   /* line-height: 20px; */
   color: #ffffff;
+
   /* background-color: #000000; */
 }
 
@@ -52,12 +54,14 @@ nav.main-navigaition {
 .user-navigation {
   list-style-type: none;
 }
+
 ul.site-navigatin li,
 ul.user-navigation li {
   display: inline-block;
   line-height: 70px;
   margin-right: 40px;
 }
+
 .site-navigatin a,
 .user-navigation a {
   color: #ffffff;
@@ -91,6 +95,7 @@ ul.user-navigation li {
   background-position: 0 0;
   /* background-repeat: repeat; */
 }
+
 .index-colums h2 {
   font-size: 30px;
   line-height: 42px;
@@ -204,8 +209,10 @@ ul.user-navigation li {
   margin: 0 auto;
   padding: 0 10px;
 }
+
 .main-header {
 }
+
 .main-navigaition {
   display: flex;
   flex-direction: column;
@@ -214,24 +221,30 @@ ul.user-navigation li {
 
   margin-bottom: 30px;
 }
+
 .main-header-logo {
   order: 1;
 }
+
 .main-wrap {
   display: flex;
   width: 100%;
   margin-bottom: 60px;
   background: #000000;
 }
+
 .site-navigatin {
   display: inline-block;
   /* width: 620px; */
 }
+
 .user-navigation {
   margin-left: auto;
 }
+
 .features {
 }
+
 .feature-list {
   margin: 0;
   padding: 0;
@@ -241,6 +254,7 @@ ul.user-navigation li {
   justify-content: space-around;
   margin-bottom: 80px;
 }
+
 .feature-item {
   box-sizing: border-box;
   /* border: 1px solid #cccccc; */
@@ -257,20 +271,25 @@ ul.user-navigation li {
   padding: 20px 80px;
   border: 1px solid #000;
 }
+
 .new {
   background: #663e155d;
   width: 380px;
 }
+
 .galery {
   width: 300px;
   background: #663e155d;
 }
+
 .contacts {
   width: 380px;
 }
+
 .appointment {
   width: 300px;
 }
+
 .main-footer .container {
   margin-top: 65px;
   display: flex;
@@ -278,12 +297,15 @@ ul.user-navigation li {
   justify-content: space-between;
   padding: 60px 0px 40px 0px;
 }
+
 .footer-contacts {
   width: 320px;
 }
+
 .footer-social {
   width: 180px;
 }
+
 .footer-copir {
   width: 160px;
 }
