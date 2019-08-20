@@ -15,8 +15,9 @@ body {
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
-  background-color: #000000;
   background-image: url(/img/bac-img.jpg);
+  background-color: #f00a0a;
+
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -90,7 +91,7 @@ ul.user-navigation li {
 .index-colums {
   color: #000000;
   background-color: #f8f5f2;
-  background-image: url(img/Фонglasy.png);
+  background-image: url(/img/Фонglasy.png);
 
   background-position: 0 0;
   /* background-repeat: repeat; */
