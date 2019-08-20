@@ -1,244 +1,185 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/index.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/glasy.css" />
+    <title>glacy</title>
   </head>
   <body>
-    <header class="main-header">
-       <div class="container">
-      <nav class="main-navigaition">
-        <a class="main-header-logo">
-          <img
-            src="img/Logo.svg"
-            width="368"
-            height="158"
-            alt="логотип барбешопа"
-        /></a>
-       
-          <div class="main-wrap">
-            <ul class="site-navigatin">
-              <li><a href="info.html">Информация</a></li>
-              <li><a href="news.html">Новости</a></li>
-              <li><a href="priсe.html">Прайс-лист</a></li>
-              <li><a href="catalog.html">Магазин</a></li>
-              <li><a href="contacts.html">Контакты</a></li>
-            </ul>
-
-            <ul class="user-navigation">
-              <li class="login-link">
-                <a href="" class="login-link">Вход</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main class="container">
-      <!-- <h1 class="visual-hidden">Барбешоп бородинский</h1> -->
-      <section class="features">
-        <!-- <h2 class="visual-hidden">Преимущества</h2> -->
-        <ul class="feature-list">
-          <li class="feature-item">
-            <h3>Быстро</h3>
-            <img src="img/ромб.png" alt="">
-            <p>
-              Мы делаем свою работу быстро ! два часа пройдет незаметно и вы -
-              счастливый обладатель стрижки
-            </p>
-          </li>
-          <li class="feature-item">
-            <h3>Круто</h3> <img src="img/ромб.png" alt="">
-            <p>
-              Забудьте как вы стриглись раньше мы сделаем из вас звезду футбола
-              и кино
-            </p>
-          </li>
-          <li class="feature-item">
-            <h3>Дорого</h3> <img src="img/ромб.png" alt="">
-            <p>
-              Наши мастера профессионалы своего дела и не могут стоить дешевле.К
-              тому же разве цена не дает опереленный статус
-            </p>
-          </li>
-        </ul>
-      </section>
-      </main>
-      <main class="container">
-      <div class="index-colums">
-        <section class="new">
-          <h2>Новости</h2>
-          <ul class="new-list">
-            <li class="new-item">
-              <p>
-                Нам наконец завезли Ягермастер!Теперь вы можете пропустить
-                стакан во время стрижки
-              </p>
-              <time datetime="2016-01-11">11 января</time>
+    <div class="wrap">
+      <header class="main-head ">
+        <div class="flex">
+          <a class="main-logo " href="#">
+            <img src="img/logo.svg" width="154px" alt="logo" />
+          </a>
+          <ul class="nav-main ">
+            <li>
+              <a href="#">Каталог</a>
+              <ul class="drop">
+                <li>Новинки</li>
+                <li><a href="#">Сливочное</a></li>
+                <li><a href="#">Щербеты</a></li>
+                <li><a href="#">Фруктоый лед</a></li>
+                <li><a href="#">Мелони</a></li>
+              </ul>
             </li>
-            <li class="new-item">
-              <p>
-                В нашей команде пополнение Бори бритва богунец выйграл все
-                награды
-              </p>
-              <time datetime="2016-01-18">18 января</time>
+            <li><a href="#">Доставка и оплата</a></li>
+            <li><a href="#">о Компании</a></li>
+          </ul>
+          <ul class="nav-user">
+            <li>
+              <a href="#"><img src="img/Group 1.png" alt=""/></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/Group 2.png" alt=""/></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/Group 3.png" alt=""/></a>
             </li>
           </ul>
-          <a href="news.html" class="buton">Все новости</a>
-        </section>
-
-        <section class="galery">
-          <h2>Фотогалерея</h2>
-          <figure class="galery-content">
-            <a href="#"><img src="img/studio.png" alt="интерьер"/></a>
-          </figure>
-          <button class="button galery-button galery-button-back">Назад</button>
-          <button class="button galery-button galery-button-next">
-            Вперед
-          </button>
-        </section>
-      </div>
-   
-      <div class="index-colums">
-        <secton class="contacts">
-          <h2>
-            Контактная информация
-          </h2>
-          <p>
-            Барбешоп "Бородинский" <br />
-            Адресс:г.Санкт-Петербург.б Конюшиная 19/ 8 <br />
-            телефон 3345454-343434343
-          </p>
-          <p>
-            Время работы: <br />
-            пн-пт: с 10-22 <br />
-            сб-вс:10-19
-          </p>
-          <a href="map.html" class="button contacts-button">Как проехать</a>
-          <a href="contacts.html" class="button contacts-button"
-            >Обратная связь</a
-          >
-        </secton>
-
-        <section class="appointment">
-          <h2>Записаться</h2>
-          <p class="appointment-info">
-            Укажить желаемую дату и время ,мы в ближайшее время свяжемся с вами
-          </p>
-          <form action="#" class="appointment-form" method="post">
-            <p class="appointment-item">
-              <label for="appointment-item">дата</label>
-              <input
-                required
-                id="appointment-item"
-                type="text"
-                name="date"
-                placeholder="08.10.2017"
-                value=""
-              />
-            </p>
-            <p class="appointment-item">
-              <label
-                >время<input
-                  required
-                  type="text"
-                  name="time"
-                  placeholder="10:00"
-                  value=""
-                />
-              </label>
-            </p>
-            <p class="appointment-item">
-              <label>
-                имя
-                <input
-                  required
-                  type="text"
-                  name="name"
-                  placeholder="Борода"
-                  value=""
-              /></label>
-            </p>
-            <p class="appointment-item">
-              <label
-                >телефон
-                <input required type="tel" name="phone" placeholder="+38255 555"
-              /></label>
-            </p>
-            <button class="button" type="submit">отправить</button>
+          <div class="work-info">
+            с 10 до 22 ежедневно <br />
+            <span>8 812 450-25-25</span>
+          </div>
+          <!-- <div class="modal-find">
+          <form action="">
+            <input type="text" placeholder="что ищем" />
           </form>
+        </div>
+        <div class="modal-login">
+          <form action="">
+              <input type="email" name="email" placeholder="почта" > <br>
+              <input type="password" name="password" placeholder="пароль" > <br>
+              <input type="submit" value="войти" > <span>забыли пароль?</span>
+              <a href="#">новая регисрация</a>
+          </form> -->
+        </div>
+      </header>
+
+      <main class="container">
+        <section class="banner-foto">
+          <div class="banner-foto1">
+            <button>давайте оба</button>
+            <h2>млинка даром</h2>
+            При покупке 2 кг любого мороженного .добавим в ваш зазак банку
+            малиновго варенья бесплатно
+            <button>хочу варенье</button>
+          </div>
+          <div class="banner-foto2">
+            <h2>Шоколадки даром</h2>
+            При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей
+            шоколадной присыпки совершенно бесплатно.
+            <button>хочу шоколадки</button>
+          </div>
         </section>
+        <section class="new-hit-foto">
+          <div class="new-hit-foto-vanil">
+            <img src="" alt="" />
+            <div class="hit-logo"></div>
+            <p class="prise-ice">310 <span class="prise-img">p</span> /кг</p>
+            <p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
+          </div>
+
+          <div class="new-hit-foto-choco">
+            <img src="" alt="" />
+            <div class="hit-logo"></div>
+            <p class="prise-ice">380 <span class="prise-img">p</span> /кг</p>
+            <p>Сливочно-кофейное с кусочками шоколада</p>
+          </div>
+
+          <div class="new-hit-foto-strawberry">
+            <img src="" alt="" />
+            <div class="hit-logo"></div>
+            <p class="prise-ice">355 <span class="prise-img">p</span> /кг</p>
+            <p>Сливочно-клубничное с присыпкой из белого шоколада</p>
+          </div>
+
+          <div class="new-hit-foto-caramel">
+            <img src="" alt="" />
+            <div class="hit-logo"></div>
+            <p class="prise-ice">415 <span class="prise-img">p</span> /кг</p>
+            <p>Сливочное крем-брюле с карамельной подливкой</p>
+          </div>
+        </section>
+        <section class="description">
+          <h2>
+            Магазин Глэйси — это онлайн- и офлайн-магазин по продаже мороженого
+            собственного производства на развес
+          </h2>
+          <div class="description-item1">
+            <img src="" class="logo-description" alt="" />
+            <p>
+              Все наше мороженое изготавливается на собственном производстве, с
+              использованием современного оборудования и проверенных временем
+              технологий.
+            </p>
+            <img src="" class="logo-description" alt="" />
+            <p>
+              Для приготовления мороженого используются настоящие сливки и
+              молоко высочайшего качества. Все дополнительные ингредиенты и
+              добавки произведены из натурального, экологически чистого сырья.
+            </p>
+          </div>
+          <div class="description-item2">
+            <img src="" class="logo-description" alt="" />
+            <p>
+              Закупка ингредиентов производится только у проверенных фермерских
+              хозяйств и компаний, с которыми нас связывает долговременное
+              сотрудничество.
+            </p>
+            <img src="" class="logo-description" alt="" />
+            <p>
+              Доставка нашего мороженого до заказчиков осуществляется в
+              специальном термопаке, который не дает мороженому растаять в пути
+              и позволяет сохранить превосходный вкус.
+            </p>
+          </div>
+        </section>
+        <section class="news">
+          <div class="mews-item">
+            <h3>новое в нашем блоке</h3>
+            <a href="">10 способов сервировки фруктовых щербетов к столу</a>
+          </div>
+          <div class="news-follow">
+            <p>
+              Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего
+              самого вкусного, что у нас происходит. Обещаем не спамить и не
+              слать всякой ненужной ерунды. Честно =)
+            </p>
+            <form>
+              <input type="text" name="name" />
+              <input type="password" name="name" />
+              <input type="email" name="name" placeholder="электронная почта" />
+              <input type="submit" name="send" value="отправить" />
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="wrap"></div>
+      </footer>
+
+      <div class="features-slider">
+        <input type="radio" name="point" id="slide1" checked />
+        <input type="radio" name="point" id="slide2" />
+        <input type="radio" name="point" id="slide3" />
+        <div class="slider">
+          <div class="slides slide1"></div>
+          <div class="slides slide2"></div>
+          <div class="slides slide3"></div>
+        </div>
+
+        <div class="controls">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+        </div>
       </div>
-     </main> 
-    <footer class="main-footer">
-        <main class="container">
-      <p class="footer-contacts">
-        Барбешоп "Бородинский" <br />
-        Адресс:г.Санкт-Петербург.б Конюшиная 19/ 8 <br />
-        <a href="#">Как нас найти?</a> <br />
-        телефон 3345454-343434343
-      </p>
-      <div class="footer-social">
-        <b>Давайте дружить</b>
-        <ul>
-          <li><a href="#" class="social-button">Вконтакте</a></li>
-          <li><a href="#" class="social-button">Фейсбук</a></li>
-          <li><a href="#" class="social-button">Инстаграмм</a></li>
-        </ul>
-      </div>
-      <div class="footer-copir">
-        <b>Разработано:</b>
-        <a class="button" href="#">HTMLACADEMY</a>
-      </div></main>
-    </footer>
-  
-    <section class="modal modal-login">
-      <h2>Личный кабинет</h2>
-      <p>Введите свой логин пароль</p>
-      <form action="" class="login-form" method="POST">
-        <p>
-          <label for="user-login" class="visualy-hidden">логин</label>
-          <input
-            id="user-login"
-            class="login-icon-user"
-            name="login"
-            placeholder="логин"
-          />
-        </p>
-        <p>
-          <label for="user-password" class="visualy-hidden">пароль</label>
-          <input
-            id="user-password"
-            class="login-icon-password"
-            type="password"
-            name="password"
-            placeholder="пароль"
-          />
-        </p>
-        <p class="login-password-info">
-          <label class="login-checkbox">
-            <input type="checkbox" name="remember" class="visualy-hidden" />
-            запомните меня </label
-          ><a href="#" class="restore">я забыл пароль</a>
-        </p>
-        <button class="button" type="submit">войти</button>
-      </form>
-      <button class="modal-close">x закрыть</button>
-    </section>
-    <section class="modal modal-map">
-      <h2 class="visual-hidden">Как до нас добраться</h2>
-      <img
-        src="img/map.jpg"
-        alt="адресс Санкт-Петербург ул"
-        width="780"
-        height="560"
-      />
-      <button class="modal-close">x закрыть</button>
-    </section>
+    </div>
+
     <script src="js/main.js"></script>
   </body>
 </html>
