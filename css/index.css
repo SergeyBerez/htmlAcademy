@@ -5,6 +5,7 @@ ul,
 li {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 body {
@@ -53,19 +54,23 @@ nav.main-navigaition {
 
 .site-navigatin,
 .user-navigation {
+  margin: 0px;
+  padding: 0px;
   list-style-type: none;
 }
 
 ul.site-navigatin li,
 ul.user-navigation li {
   display: inline-block;
-  line-height: 70px;
+  /* display: inline-flex; */
   margin-right: 40px;
+  line-height: 70px;
 }
 
 .site-navigatin a,
 .user-navigation a {
   color: #ffffff;
+  display: block;
 }
 
 .site-navigatin a:hover,
@@ -167,12 +172,21 @@ ul.user-navigation li {
   color: #000000;
   background-color: #ffffff;
 }
+.modal.modal-login {
+  width: 300px;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 600px;
+}
 
 .modal {
   color: #000000;
   background-color: #f8f3f0;
 }
-
+.modal-close {
+  margin-left: 230px;
+}
 .modal h2 {
   font-size: 30px;
   line-height: 42px;
@@ -213,7 +227,7 @@ ul.user-navigation li {
   margin: 0 auto;
   padding: 0 10px;
 }
-
+/* ==================стили для сайта ========== */
 .main-header {
 }
 
@@ -233,19 +247,17 @@ ul.user-navigation li {
 .main-wrap {
   display: flex;
   width: 100%;
-  margin-bottom: 60px;
   background: #000000;
-}
-
-.site-navigatin {
-  display: inline-block;
-  /* width: 620px; */
+  margin-bottom: 60px;
 }
 
 .user-navigation {
   margin-left: auto;
 }
 
+.user-navigation img {
+  margin-right: 15px;
+}
 .features {
 }
 
