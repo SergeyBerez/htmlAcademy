@@ -172,21 +172,27 @@ ul.user-navigation li {
   color: #000000;
   background-color: #ffffff;
 }
-.modal.modal-login {
+/* ----------------------скрытые модальные окна */
+.modal-login {
   width: 300px;
   display: none;
   position: absolute;
   top: 0;
   left: 600px;
 }
+.modal-map {
+  text-align: right;
+  width: 800px;
+  display: none;
+  position: absolute;
+  top: 1350px;
+}
 
 .modal {
   color: #000000;
   background-color: #f8f3f0;
 }
-.modal-close {
-  margin-left: 230px;
-}
+
 .modal h2 {
   font-size: 30px;
   line-height: 42px;
